@@ -44,7 +44,11 @@ Make sure you have the following installed on your machine:
 
 ### Configuration
 
-1. Configure your database connection in the `.env` file
+1. Copy the `.env.example file` to `.env`
+
+   cp .env.example .env
+
+2. Configure your database connection in the `.env` file
 
     Replace your_database_host, your_database_port, your_database_name, your_database_username, and your_database_password with your actual database credentials.
 
